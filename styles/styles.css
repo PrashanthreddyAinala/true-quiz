@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+:root {
+  --white: #ffffff;
+}
+
+body {
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+}
+
+p {
+  margin: 0px;
+}
+
+.landing {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 80%;
+}
+
+.logo {
+  color: var(--white);
+  padding: 1rem;
+}
+
+.landing-content {
+  color: var(--white);
+  width: 50rem;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-content p {
+  margin: 0px;
+}
+
+.landing-content button {
+  border: 3px solid var(--white);
+  background-color: transparent;
+  padding: 0.5rem;
+  width: 10rem;
+  margin-top: 2.5rem;
+  font-size: 1.5rem;
+  color: var(--white);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.landing-content button:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.color-white {
+  color: var(--white);
+}
+
+.navbar {
+  background-color: var(--primary);
+}
+
+.single-card {
+  width: 15rem;
+  height: 22rem;
+  border: 3px solid var(--primary);
+  border-radius: 0.5rem;
+  margin-right: 3rem;
+}
+
+.item-logo {
+  width: 100%;
+  border-radius: 5px;
+  height: 14rem;
+}
+
+.cards-wrapper {
+  margin: 2rem;
+}
+
+.single-card .btn {
+  width: 90%;
+  margin: 0.7rem;
+  margin-bottom: 0.5rem;
+}
